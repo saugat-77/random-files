@@ -2,8 +2,6 @@
 
 from tkinter import *
 import base64
-from encode_decode_2 import func
-
 
 #initialize window
 root = Tk()
@@ -77,7 +75,7 @@ def Reset():
     Result.set("")
 
 
-#################### Label and Button #############
+# Label and Button #############
 
 #Message
 Label(root, font= 'arial 12 bold', text='MESSAGE').place(x= 60,y=60)
