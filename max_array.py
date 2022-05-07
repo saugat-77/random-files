@@ -1,5 +1,5 @@
 inp_arr=[]
-total_number=int(input('how many arrays ? '))
+total_number=int(input('total length of array ? '))
 for i in range(total_number):
     inp_num=int(input('enter array element: '))
     inp_arr += [inp_num]
