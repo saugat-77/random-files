@@ -4,7 +4,7 @@ def string_func(string_1):
         position = string_1.find('x')
         # print(position)
         
-         if string_1 [position+1] == ' ' and  string_1 [position -1] == ' ':
+        if string_1 [position+1] == ' ' and  string_1 [position -1] == ' ':
             final_string=string_1.replace('x', 'ecks') 
             return final_string
             # print(final_string)
